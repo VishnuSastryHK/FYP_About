@@ -19,7 +19,22 @@
     #googleMap iframe{
       width: 100%;
     }
-}
+  }
+  .btnReadData {
+    position: relative;
+    background-color: purple;
+    border: none;
+    border-radius:15px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
   </style>
 </head>
 
@@ -151,6 +166,11 @@
             <br>
             <br>
            
+        </div>
+        <br>
+        <center> <h4>To check the water parameters, click on the button below</h4></center><br><br>
+        <div class="row">
+          <center><a href="template_read_data.html"><button class="text-sm btnReadData">Fetch Data</button></a></center>
         </div>
       </div>
     </section>
